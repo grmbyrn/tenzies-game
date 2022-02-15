@@ -3,7 +3,7 @@ import Die from './components/Die'
 import {nanoid} from 'nanoid'
 import Confetti from 'react-confetti'
 
-import Style from '../src/style.css'
+import '../src/style.css'
 
 export default function App(){
     const [dice, setDice] = useState(allNewDice())
